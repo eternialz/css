@@ -1,0 +1,14 @@
+{
+    "selector": "html",
+    "mainFile": "main",
+    "version": "2.0.0",
+    "author": "Sébastien Erfani",
+    "url": "https://github.com/eternialz/base-module",
+    "dependencies": {
+        "base-extends": "~> 2.1.0",
+        "base-mixins": "~> 2.1.0"
+    },
+    "unsupported": {
+        "IE6-11": "Usage of custom properties"
+    }
+}

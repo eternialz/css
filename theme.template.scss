@@ -1,0 +1,188 @@
+// ============================================================================
+// &App config
+
+// Switches
+$right-to-left: false !default;
+
+// Fonts
+
+
+
+// ============================================================================
+// &Colors
+
+// Palette
+$red-color: #f82828 !default;
+$orange-color: #f87d28 !default;
+$yellow-color: #ffcc00 !default;
+$lime-color: #c8e123 !default;
+$green-color: #4edb47 !default;
+$cyan-color: #42d9b6 !default;
+$blue-color: #41b5e2 !default;
+$strong-blue-color: #4157e2 !default;
+$violet-color: #846ae8 !default;
+$magenta-color: #b241bc !default;
+$pink-color: #ee1597 !default;
+$white-color: #eeeeee !default;
+$black-color: #111111 !default;
+
+// Application colors
+$primary-color: $violet-color !default;
+$secondary-color: $pink-color !default;
+$dark-color: $white-color !default;
+$light-color: $black-color !default;
+
+$success-color: $green-color !default;
+$info-color: $blue-color !default;
+$warning-color: $orange-color !default;
+$error-color: $red-color !default;
+
+// Other colors
+$code-color: $magenta-color !default;
+$highlight-color: $blue-color !default;
+$link-color: $primary-color !default;
+$link-color-active: darken($link-color, 10%) !default;
+$link-color-hover: lighten($link-color, 10%) !default;
+
+// Social colors
+$amazon-color: #ff9900 !default;
+$android-color: #a4c639 !default;
+$apple-color: #a6b1b7 !default;
+$apple_color: #737373 !default;
+$basecamp_color: #6bbd6d !default;
+$blogger-color: #fb8f3d !default;
+$box_color: #1277bc !default;
+$deviantart-color: #05cc47 !default;
+$discord-color: #7289da !default;
+$dribbble-color: #ea4c89 !default;
+$dropbox_color: #0d84de !default;
+$ebay_color: #083790 !default;
+$facebook-color: #3b5998 !default;
+$fivehundredpx-color: #0099e5 !default;
+$flickr-blue-color: #006add !default;
+$flickr-pink-color: #f40083 !default;
+$forrst-color: #5B9A68 !default;
+$foursquare-blue-color: #2d5be3 !default; 
+$foursquare-color: #0072b1 !default;
+$foursquare-navy-color: #073282 !default;
+$foursquare-pink-color: #f94877 !default; 
+$github_color: #2f2f2f !default;
+$google-blue-color: #4285f4 !default;
+$google-green-color: #34a853 !default;
+$google-red-color: #ea4335 !default; 
+$google-yellow-color: #fbbc05 !default; 
+$instagram-blue-color: #4c5fd7 !default;
+$instagram-color: #517fa4 !default;
+$instagram-magenta-color: #c32aa3 !default;
+$instagram-orange-color: #f46f30 !default;
+$instagram-purple-color: #7232bd !default;
+$instagram-yellow-color: #ffdc7d !default;
+$linkedin-color: #007bb5 !default;
+$linkedin-color: #007bb6 !default;
+$listly-blue-color: #52b1b3 !default;
+$listly-orange-color: #df6d46 !default;
+$mastodon-color: #2b90d9 !default;
+$medium-color: #02b875 !default;
+$medium_color: #03a87c !default;
+$microsoft-blue-color: #03a5f0 !default;
+$microsoft-green-color: #80bb03 !default;
+$microsoft-red-color: #f35022 !default;
+$microsoft-yellow-color: #ffb903 !default;
+$periscope-color: #40a4c4 !default;
+$pinterest-color: #bd081c !default;
+$pinterest-color: #cb2027 !default;
+$pocket-color: #ee4056 !default;
+$quora-blue-color: #2b6dad !default;
+$quora-color: #aa2200 !default;
+$reddit-color: #ff5700 !default;
+$skype-blue-color: #00aff0 !default;
+$skypedk-blue-color: #0078d7 !default;
+$slack-greenblue-color: #1a937d !default;
+$slack-mosss-color: #3eb890 !default; 
+$slack-olive-color: #65863a !default; 
+$slack-pink-color: #e01765 !default; 
+$slack-purple-color: #4d394b !default; 
+$slack-red-color: #cc2027 !default; 
+$slack-skyblue-color: #70cadb !default; 
+$slack-violet-color: #472a49 !default; 
+$slack-yellow-color: #e8a723 !default; 
+$slideshare-blue-color: #00a0dc !default;
+$slideshare-orange-color: #e68523 !default;
+$snapchat-color: #fffc00 !default;
+$soundcloud-color: #ff3a00 !default;
+$soundcloud-color: #ff5500 !default;
+$spotify-color: #23CF5F !default;
+$spotify-darkgreen-color: #1db954 !default;
+$spotify-green-color: #1ed760 !default;
+$steam-color: #171a21 !default;
+$stumbleupon-color: #e94826 !default;
+$swarm-color: #ffa633 !default;
+$tumblr-color: #2c4762 !default;
+$tumblr-color: #32506d !default;
+$twitch-color: #6441a4 !default;
+$twitter-color: #1da1f2 !default;
+$vimeo-blue-color: #1ab7ea !default;
+$vimeo-color: #aad450 !default;
+$vine-color: #00b489 !default;
+$vk-color: #4a76a8 !default;
+$whatsapp-green-color: #25d366 !default;
+$whatsapp-teal1-color: #075e54 !default;
+$whatsapp-teal2-color: #128c7e !default;
+$wordpress-color: #21759b !default;
+$yahoo-color: #430297 !default;
+$yahoo-color: #7B0099 !default;
+$yelp_color: #c30f00 !default;
+$youtube-color: #ff0000 !default;
+$youtube-color: #ff3333 !default;
+
+// ============================================================================
+// &Sizes
+
+$unit-0: .1rem;
+$unit-1: .2rem;
+$unit-2: .4rem;
+$unit-3: .6rem;
+$unit-4: .8rem;
+$unit-5: 1rem;
+$unit-6: 1.2rem;
+$unit-8: 1.6rem;
+$unit-10: 2rem;
+$unit-12: 2.4rem;
+$unit-14: 2.8rem;
+
+// Font sizes
+$base-font-size: 20px !default;
+$font-size: .7rem !default;
+$font-size-sm: .7rem !default;
+$font-size-lg: .9rem !default;
+$line-height: 1.2rem !default;
+
+// Layout
+// $layout-spacing-sm: 
+// $layout-spacing:
+// $layout-spacing-lg:
+
+// ============================================================================
+// &Utilities
+
+// Z-index layers
+// Background layer
+$background-layer-0: 1 !default;
+$background-layer-1: 100 !default;
+$background-layer-2: 200 !default;
+// Content layer
+$content-layer-0: 300 !default;
+$content-layer-1: 400 !default;
+$content-layer-2: 500 !default;
+// Foreground layer
+$coreground-layer-0: 600 !default;
+$coreground-layer-1: 700 !default;
+$coreground-layer-2: 800 !default;
+// Modal layer
+$modal-layer-0: 900 !default;
+$modal-layer-1: 1000 !default;
+$modal-layer-2: 1100 !default;
+// Alert/Toast layer
+$notification-layer-0: 1200 !default;
+$notification-layer-1: 1300 !default;
+$notification-layer-2: 1400 !default;
