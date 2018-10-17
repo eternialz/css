@@ -1,0 +1,23 @@
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    background: $light-color;
+    color: $dark-color;
+    font-display: fallback;
+    font-family: $main-font;
+    font-size: $font-size;
+    line-height: $line-height;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeSpeed;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    min-height: 100%;
+}

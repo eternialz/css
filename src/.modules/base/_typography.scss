@@ -1,0 +1,24 @@
+p {
+    line-height: $line-height;
+    margin: 0;
+}
+
+mark  {
+    background: rgba($primary-color, .33);
+}
+
+s, del {
+    text-decoration: line-through;
+}
+
+ins, u {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}

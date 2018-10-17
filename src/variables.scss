@@ -16,7 +16,7 @@ $custom-font: "Lato" !default;
 $monoscape-font: "Lucida Console", Monaco, monospace;
 $fallback-system-font: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”, “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”;
 $fallback-general-font: “Helvetica Neue”, sans-serif;
-$global-font: $custom-font, $fallback-system-font, $fallback-general-font;
+$main-font: $custom-font, $fallback-system-font, $fallback-general-font;
 
 // &Sizes
 // ============================================================================
@@ -88,6 +88,7 @@ $secondary-color: $pink-color !default;
 $dark-color: $white-color !default;
 $light-color: $black-color !default;
 
+// Feedbacks colors
 $success-color: $green-color !default;
 $info-color: $blue-color !default;
 $warning-color: $orange-color !default;

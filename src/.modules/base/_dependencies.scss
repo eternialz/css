@@ -1,0 +1,13 @@
+@function complete($color) {
+    // Culculate color channels using ITU-R BT.601 recommendation
+    $red: red($color) * 0.299;
+    $blue: blue($color) * 0.587;
+    $green: green($color) * 0.114;
+
+    // Add each color channels to determine which color to complete to
+    @if ($red + $blue * + $green < 127 * 3 ) {
+        @return $dark-color;
+    } @else {
+        @return $light-color;
+    }
+}
