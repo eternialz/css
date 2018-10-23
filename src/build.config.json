@@ -1,0 +1,6 @@
+{
+    "outputFile": "../style.css",
+    "minify": true,
+    "generateTemplates": "true",
+    "generateSourcemap": true
+}

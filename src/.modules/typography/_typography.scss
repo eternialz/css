@@ -1,0 +1,59 @@
+p, .p {
+    line-height: $line-height;
+    margin: 0 0 $unit-0;
+}
+
+mark, .mark {
+    background: rgba($primary-color, .33);
+}
+
+kbd, .kbd {
+    display: inline-block;
+    background: $gray-color;
+    border-radius: $border-radius;
+}
+
+sub, sup, .sup, .sub {
+    font-size: $font-size-sm;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub, .sub {
+    top: .5em;
+}
+
+sup, .sup {
+    top: -.5em;
+}
+
+samp, .samp {
+    background: rgba($dark-color, .1);
+    font-family: $monoscape-font;
+}
+
+address {
+    font-style: normal;
+}
+
+abbr {
+    border-bottom: $unit-0 dotted;
+    cursor: help;
+    text-decoration: dotted;
+}
+
+s, .s, del, .del {
+    text-decoration: line-through;
+}
+
+ins, .ins, u, .u {
+    text-decoration: underline;
+}
+
+@for $i from 1 to 6 {
+    h#{$i}, .h#{$i} {
+        font-size: $base-font-size - $unit + $i * $unit;
+        font-weight: 600;
+    }
+}

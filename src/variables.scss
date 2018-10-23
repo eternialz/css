@@ -2,7 +2,7 @@
 // ============================================================================
 
 // General
-$scale: 1;
+$scale: 1 !default;
 
 // Switches
 $enable-transition: true !default;
@@ -52,9 +52,9 @@ $content-layer-0: 300 !default;
 $content-layer-1: 400 !default;
 $content-layer-2: 500 !default;
 // Foreground layer
-$coreground-layer-0: 600 !default;
-$coreground-layer-1: 700 !default;
-$coreground-layer-2: 800 !default;
+$foreground-layer-0: 600 !default;
+$foreground-layer-1: 700 !default;
+$foreground-layer-2: 800 !default;
 // Modal layer
 $modal-layer-0: 900 !default;
 $modal-layer-1: 1000 !default;
@@ -86,6 +86,7 @@ $black-color: #111111 !default;
 $primary-color: $violet-color !default;
 $secondary-color: $pink-color !default;
 $dark-color: $white-color !default;
+$gray-color: mix($white-color, $black-color, 50%);
 $light-color: $black-color !default;
 
 // Feedbacks colors

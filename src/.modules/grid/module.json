@@ -4,5 +4,7 @@
     "author": "Sébastien Erfani",
     "url": "https://github.com/eternialz/base-module",
     "dependencies": {},
-    "unsupported": {}
+    "unsupported": {
+        "IE6-11": "Usage of custom properties"
+    }
 }

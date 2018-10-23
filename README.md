@@ -1,4 +1,6 @@
-# css notes
+# FRAMEWORK PROJECT
+
+## css notes
 
 - One theme file for a project
 - Module structure
@@ -7,7 +9,8 @@
   - Modules dependencies using `<=`, `>=`, `~>`, ...
   - Set of rules and structure for modules and bundles development
   - module.json file
-  - exemple: 
+  - exemple:
+
 ```json
 {
     "selector": "myclass",
@@ -26,13 +29,49 @@
 
 - Cli tool:
   - Build project
-  - Import new modules and bundles (modules group)
+  - Import new modules and bundles
+  - Generate new modules and bundles
+  - Publish and update custom modules/bundles
   - Copy html template to clipboard from a module
   - Preview component or whole project in html file using modules mocks
-  - Config file 
-  - Global config
+  - Config file
   - Name conflicts
-  - Publish and update modules/bundles
 
 - Sourcemap generation
 
+## File structure
+
+### Project structure
+```
+    src
+    ├── variables.sass
+    ├── modules.json
+    ├── modules.lock.json
+    ├── config.json
+    ├── browserlist
+    │
+    ├── custom-modules
+    │   ├── mywebsite-typography
+    │   ├── mywebsite-header
+    │   └── ...
+    │
+    ├── modules
+    │   ├── myframework-base
+    │   ├── myframework-grid
+    │   └── ...
+    │
+    └── vendors
+        ├── normalize
+        └── ...
+```
+
+### Module structure
+```
+    mymodule
+    ├── module.json
+    ├── mymodule.scss
+    ├── _filename1.scss
+    ├── _filename2.scss
+    ├── _filename3.scss
+    └── ...
+```
