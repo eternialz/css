@@ -1,5 +1,7 @@
 # FRAMEWORK PROJECT
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/2636ee020b924558f88a/maintainability)](https://codeclimate.com/github/eternialz/css/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/2636ee020b924558f88a/test_coverage)](https://codeclimate.com/github/eternialz/css/test_coverage)
+
 ## css notes
 
 - One theme file for a project
