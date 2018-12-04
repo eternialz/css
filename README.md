@@ -8,7 +8,7 @@
   - Mixins / Extends / Functions dependencies 
   - Modules dependencies using `<=`, `>=`, `~>`, ...
   - Set of rules and structure for modules and bundles development
-  - module.json file
+  - octo.module.json file
   - exemple:
 
 ```json
@@ -21,9 +21,9 @@
     "dependencies": {
         "base-extends": "~> 2.1.0",
         "base-mixins": "~> 2.1.0"
-    },
+    }, // => Later
     "unsupported": {
-        "IE6-11": "Usage of custom properties"
+        "ie > 0": "Usage of custom properties" // Browserlist syntax
     }
 }
 ```
@@ -31,17 +31,36 @@
 - In the website
     - octo.json
 ```json
-{ 
+{
     "module": {
         "prefix": "myprefix",
         "version": "version",
+        "environments": ["default", "production"],
     },
     "module2": {
         "prefix": "prefix2",
         "url": "https://your-repo.com/project.git",
+        "environments": ["production"],
     }
 }
 ```
+    -.octorc
+```json
+{
+    "default": {
+        "configDirectory": "app/octo/",
+        "outputFile": "app/assets/site.css",
+        "minified": "false",
+        "sourceMap": "true", // default: false
+    },
+    "production": {
+        "configDirectory": "app/octo/prod",
+        "path": "public/css/site.min.css",
+        "minified": "true",
+    }
+}
+```
+    - One configuration file per module
 
 - Cli tool:
   - Build project
@@ -54,6 +73,15 @@
   - Name conflicts
   - Generate minified css file
   - Generate bundled css files
+  - See supported browsers
+
+- Repository website
+    - Upload new package
+    - Add new version of package
+    - Documentation section foreach package
+    - User account
+    - PGP signatures?
+    - Presentation page for each package
 
 - Sourcemap generation
 
