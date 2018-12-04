@@ -54,7 +54,7 @@
         "sourceMap": "true", // default: false
     },
     "production": {
-        "configDirectory": "app/octo/prod",
+        "configDirectory": "app/octo/prod/",
         "path": "public/css/site.min.css",
         "minified": "true",
     }
