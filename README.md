@@ -17,12 +17,28 @@
     "version": "2.0.0",
     "author": "Sébastien Erfani",
     "url": "https://github.com/eternialz/base-module",
+    "preprocessor": "sass",
     "dependencies": {
         "base-extends": "~> 2.1.0",
         "base-mixins": "~> 2.1.0"
     },
     "unsupported": {
         "IE6-11": "Usage of custom properties"
+    }
+}
+```
+
+- In the website
+    - octo.json
+```json
+{ 
+    "module": {
+        "prefix": "myprefix",
+        "version": "version",
+    },
+    "module2": {
+        "prefix": "prefix2",
+        "url": "https://your-repo.com/project.git",
     }
 }
 ```
@@ -36,6 +52,8 @@
   - Preview component or whole project in html file using modules mocks
   - Config file
   - Name conflicts
+  - Generate minified css file
+  - Generate bundled css files
 
 - Sourcemap generation
 
